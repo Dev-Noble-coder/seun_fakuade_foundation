@@ -14,3 +14,53 @@ h1, h2, h3, h4, h5, h6, #nav-links {
   font-family: 'Plus Jakarta Sans', sans-serif; /* Headings */
 }
 
+
+.mobile-menu-container {
+  animation: slideDown 0.3s ease-out forwards;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mobile-menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #1D1D1D;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  100% {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+}
+
+.slideDown {
+  animation: slideDown 0.3s ease-out forwards;
+}
+
+.slideUp {
+  animation: slideUp 0.3s ease-out forwards;
+}
+
+
