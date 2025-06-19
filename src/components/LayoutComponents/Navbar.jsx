@@ -208,7 +208,7 @@ function Navbar() {
 
           {(isMobileMenuOpen || isAnimatingClose) && (
             <div
-              className={`lg:hidden mobile-menu-container absolute top-0 left-0 text-base w-full px-2 pl-5 pb-5 pt-2 z-50 ${
+              className={`lg:hidden mobile-menu-container absolute top-0 left-0 text-sm w-full px-2 pl-5 pb-5 pt-2 z-50 ${
                 isAnimatingClose ? "slideUp" : "slideDown"
               }`}
             >
