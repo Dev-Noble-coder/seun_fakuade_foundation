@@ -4,13 +4,13 @@ import images from "../../utils/images.js";
 function MeetSF() {
   return (
     <>
-      <div className="flex  justify-center max-h-[600px] bg-[#01103B]">
+      <div className="flex flex-col sm:flex-row justify-center sm:max-h-[600px] bg-[#01103B]">
         <div className="flex-1">
           <img src={images["seun_fakuade_img.png"]}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover "
           alt="" />
         </div>
-        <div className="flex-1 text-white p-10">
+        <div className="sm:flex-1 text-white px-5 py-10 sm:p-10">
           <h3 className="text-4xl font-semibold pb-3">Meet H.C Seun Fakuade</h3>
           <p className="pb-3">
             I am ‘Seun Fakuade — a purpose-driven public servant, innovation

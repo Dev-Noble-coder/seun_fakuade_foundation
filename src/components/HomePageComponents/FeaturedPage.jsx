@@ -6,7 +6,7 @@ import featuredProjects from "./FeaturedPageData";
 function FeaturedPage() {
   return (
     <>
-      <div className="bg-white py-20 mx-20 text-sm">
+      <div className="bg-white py-20 mx-5 lg:mx-20 text-sm">
         <div>
           <h3 className="text-2xl font-semibold text-[#1D1D1D] pb-2">
             Featured Projects
@@ -20,7 +20,7 @@ function FeaturedPage() {
               </p>
             </div>
 
-            <Link to="/">
+            <Link to="/" className="hidden sm:block">
               <button className="flex justify-center items-center gap-2 text-[#1D1D1D] border border-gray-200 py-3 px-5 rounded-full cursor-pointer">
                 View all projects
                 <svg
@@ -119,6 +119,14 @@ function FeaturedPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="flex justify-center items-center gap-2 sm:hidden mt-5 text-[#F97316] cursor-pointer">
+<p>View all projects</p>
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702" stroke="#F97316" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.5 12H20.33" stroke="#F97316" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
           </div>
         </div>
       </div>

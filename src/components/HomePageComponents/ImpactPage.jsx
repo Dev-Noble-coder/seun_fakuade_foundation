@@ -15,7 +15,7 @@ function ImpactPage() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-6 grid-rows-5 mx-20 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 grid-rows-5 mx-5 lg:mx-20 gap-5">
           <div className="grid col-span-2 row-span-5  bg-white px-3 py-5 rounded-md">
             <div className="bg-[#FFF6EF] p-2 rounded-full w-fit mb-2">
               <svg
@@ -183,7 +183,7 @@ function ImpactPage() {
             <p className="text-[#777777] font-extralight">PEOPLE REACHED</p>
           </div>
 
-          <div className="row-span-3 bg-[#F97316] rounded-md p-3">
+          <div className="row-span-3 bg-[#F97316] rounded-md p-3 flex flex-col justify-end pb-[22px]">
             <div className="bg-white p-1 rounded-full w-fit mb-2">
               <svg
                 width="16"
@@ -209,10 +209,11 @@ function ImpactPage() {
               </svg>
             </div>
             <div>
-              <h3 className="font-semibold pb-1">Countries</h3>
-              <p className="font-light">Global partnerships</p>
+              <h3 className="font-semibold pb-1 text-white">Countries</h3>
+              <p className="font-light text-white">Global partnerships</p>
             </div>
           </div>
+
           <div className="grid row-span-3 rounded-md overflow-hidden relative">
             {/* Image */}
             <img

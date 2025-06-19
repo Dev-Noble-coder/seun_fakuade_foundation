@@ -9,14 +9,14 @@ function HeroPage() {
         className="text-[#1D1D1D] min-h-screen flex flex-col justify-center items-center bg-center bg-cover bg-no-repeat bg-fixed "
         style={{ backgroundImage: `url(${images["heroimg.png"]})` }}
       >
-        <div className="max-w-2/4 text-center flex flex-col justify-center items-center">
+        <div className=" sm:max-w-3/4 lg:max-w-2/4 text-center flex flex-col justify-center items-center px-5 lg:px-0">
           <div className="text-center text-[#F97316] bg-white text-sm border border-[#F97316] rounded-full px-4 py-0.5 mb-2 w-fit ">
             <ul className="list-disc list-inside">
               <li>Active in Development & Policy</li>
             </ul>
           </div>
           <div className="text-white ">
-            <h1 className="text-5xl font-bold  mb-3">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold  mb-3">
               Transforming{" "}
               <span className="text-[#FF6600]">Nigeria's Future</span> Through
               Innovation
@@ -27,7 +27,7 @@ function HeroPage() {
               Creating impact that lasts generations.
             </p>
             <div className="flex flex-row justify-center items-center gap-2 mt-4">
-              <button className="flex justify-center items-center gap-1 bg-[#FF6600] py-2 px-4 rounded-full text-white text-sm cursor-pointer">
+              <button className="flex justify-center items-center gap-1 bg-[#FF6600] w-full sm:w-fit py-2 px-2.5 sm:px-4 rounded-full text-white text-sm cursor-pointer">
                 Explore my impact
                 <svg
                   width="24"
@@ -54,7 +54,7 @@ function HeroPage() {
                   />
                 </svg>
               </button>
-              <button className="flex justify-center items-center gap-1 bg-white py-2 px-4 rounded-full text-[#1D1D1D] text-sm cursor-pointer">
+              <button className="flex justify-center items-center gap-1 bg-white py-2 px-2.5 w-full sm:w-fit sm:px-4 rounded-full text-[#1D1D1D] text-sm cursor-pointer">
                 <svg
                   width="24"
                   height="24"

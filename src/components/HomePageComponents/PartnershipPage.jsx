@@ -9,14 +9,14 @@ function PartnershipPage() {
           <h2 className="text-2xl pb-1 font-semibold text-[#1D1D1D]">
             Strategic Partnerships
           </h2>
-          <div className="max-w-xl ">
+          <div className="max-w-sm sm:max-w-xl ">
             <p className="text-[#777777]">
               Collaborating with world-class organizations to amplify our impact
               and create sustainable change at scale.
             </p>
           </div>
         </div>
-        <div className="px-20">
+        <div className="px-5 lg:px-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center ">
             {Partners.map((partner) => (
               <div
@@ -34,7 +34,7 @@ function PartnershipPage() {
                 <p className="text-[#01103B] font-semibold">
                   {partner.partner_description}
                 </p>
-                <p className="text-[#777777]">{partner.partner_info}</p>
+                <p className="text-[#777777] pb-3">{partner.partner_info}</p>
               </div>
             ))}
           </div>
