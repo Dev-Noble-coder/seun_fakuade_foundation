@@ -12,7 +12,7 @@ function FeaturedPage() {
             Featured Projects
           </h3>
           <div className="text-[#1D1D1D] flex justify-between items-center pb-5">
-            <div className="max-w-xl text-[#777777] text-sm">
+            <div className="max-w-xl text-[#bfb5b5] text-sm">
               <p className="">
                 Transformative initiatives that have created lasting change
                 across communities, setting new standards for development and

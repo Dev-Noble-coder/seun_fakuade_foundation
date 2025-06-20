@@ -2,7 +2,9 @@ import React,{ useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingLayout from "./layouts/LandingLayout"
 import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 import { Toaster } from "react-hot-toast";
+
 
 function App() {
   return (
@@ -10,7 +12,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingLayout />}>
-            <Route index element={<HomePage />} />
+            <Route index element={<HomePage />} /> 
+          </Route>
+          <Route path="/about" element={<LandingLayout />} >
+            <Route index element={<AboutPage />} />
           </Route>
           
           <Route path= "*" element={<h1>404 Not Found</h1>} />
