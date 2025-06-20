@@ -17,7 +17,7 @@ function ImpactPage() {
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 grid-rows-5 mx-5 lg:mx-20 gap-5">
           <div className="grid col-span-2 row-span-5  bg-white px-3 py-5 rounded-md">
-            <div className="bg-[#FFF6EF] p-2 rounded-full w-fit mb-2">
+            <div className="bg-[#FFF6EF] p-2 rounded-full w-fit mb-2 self-start">
               <svg
                 width="24"
                 height="24"
@@ -92,7 +92,7 @@ function ImpactPage() {
             </p>
           </div>
           <div className="grid col-span-2 row-span-5  bg-white px-3 py-5 rounded-md">
-            <div className="bg-[#FFF6EF] p-2 rounded-full w-fit mb-2">
+            <div className="bg-[#FFF6EF] p-2 rounded-full w-fit mb-2 self-start">
               <svg
                 width="25"
                 height="24"
@@ -174,11 +174,11 @@ function ImpactPage() {
             </p>
           </div>
 
-          <div className="grid row-span-2 place-items-center bg-white py-3 rounded-md">
+          <div className="grid row-span-2 place-items-center bg-white py-4 rounded-md">
             <h3 className="text-[#FF6600] font-light">10,000k</h3>
             <p className="text-[#777777] font-extralight">LIVES IMPACTED</p>
           </div>
-          <div className="grid row-span-2 place-items-center bg-white py-3 rounded-md">
+          <div className="grid row-span-2 place-items-center bg-white py-4 rounded-md">
             <h3 className="text-[#FF6600] font-light">50,000k</h3>
             <p className="text-[#777777] font-extralight">PEOPLE REACHED</p>
           </div>

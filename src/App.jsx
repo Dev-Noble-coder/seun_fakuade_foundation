@@ -4,12 +4,14 @@ import LandingLayout from "./layouts/LandingLayout"
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import { Toaster } from "react-hot-toast";
+import ScrollToTop from "./utils/ScrollToTop";
 
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<LandingLayout />}>
             <Route index element={<HomePage />} /> 
