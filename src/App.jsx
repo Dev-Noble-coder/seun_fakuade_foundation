@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./utils/ScrollToTop";
+import Digital_Ekiti_Initiatives from "./pages/Digital_Ekiti_Initiatives";
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/about" element={<LandingLayout />} >
             <Route index element={<AboutPage />} />
+          </Route>
+          <Route path="/initiatives/digital_ekiti_initiative" element={<LandingLayout  />} >
+            <Route index element={<Digital_Ekiti_Initiatives />} />
           </Route>
           
           <Route path= "*" element={<h1>404 Not Found</h1>} />
