@@ -4,7 +4,7 @@ import Partners from "./PartnershipPageData";
 function PartnershipPage() {
   return (
     <>
-      <div className="bg-white text-sm  py-20">
+      <section className="bg-white text-sm  py-20">
         <div className=" flex flex-col justify-center items-center text-center mb-10">
           <h2 className="text-2xl pb-1 font-semibold text-[#1D1D1D]">
             Strategic Partnerships
@@ -71,7 +71,7 @@ function PartnershipPage() {
             </svg>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -4,7 +4,7 @@ import images from "../../utils/images.js";
 function MeetSF() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row justify-center sm:max-h-[600px] bg-[#01103B]">
+      <section className="flex flex-col sm:flex-row justify-center sm:max-h-[600px] bg-[#01103B]">
         <div className="flex-1">
           <img src={images["seun_fakuade_img.png"]}
           className="w-full h-full object-cover "
@@ -36,7 +36,7 @@ function MeetSF() {
             and one bold step at a time.
           </p>
         </div>
-      </div>
+      </section>
     </>
   );
 }

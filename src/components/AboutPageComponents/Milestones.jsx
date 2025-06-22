@@ -5,7 +5,7 @@ import MilestonesData from "./MilestonesData";
 function Milestones() {
   return (
     <>
-      <div className="bg-white py-20 mx-5 lg:mx-20 text-sm">
+      <section className="bg-white py-20 mx-5 lg:mx-20 text-sm">
         <div>
           <h3 className="text-2xl font-semibold text-[#1D1D1D] pb-2">
             Key Milestones
@@ -48,7 +48,7 @@ function Milestones() {
             </div>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 }

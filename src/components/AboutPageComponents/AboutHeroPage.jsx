@@ -4,9 +4,9 @@ import images from "../../utils/images";
 function AboutHeroPage() {
   return (
     <>
-      <div
+      <section
         style={{ backgroundImage: `url(${images["about_hero_lines.png"]})` }}
-        className="min-h-screen bg-cover bg-no-repeat bg-[#FFFAF6] lg:py-[10%] text-sm flex justify-center items-center flex-col lg:block"
+        className="min-h-screen bg-cover  bg-no-repeat bg-[#FFFAF6] lg:py-[10%] text-sm flex justify-center items-center flex-col lg:block"
       >
         <div className="flex justify-center items-center flex-col text-center px-5 sm:px-0">
           <div className=" sm:max-w-3/4 lg:max-w-2/4 flex flex-col justify-center items-center ">
@@ -41,7 +41,7 @@ function AboutHeroPage() {
                 className=" sm:hidden lg:block w-full px-5 sm:px-0 lg:w-[28%] h-auto object-cover"
             />
         </div>
-      </div>
+      </section>
     </>
   );
 }

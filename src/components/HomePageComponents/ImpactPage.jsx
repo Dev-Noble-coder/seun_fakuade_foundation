@@ -4,7 +4,7 @@ import images from "../../utils/images.js";
 function ImpactPage() {
   return (
     <>
-      <div className="bg-[#01103B] text-sm text-white py-20">
+      <section className="bg-[#01103B] text-sm text-white py-20">
         <div className=" flex flex-col justify-center items-center text-center mb-10">
           <h2 className="text-2xl pb-1 font-semibold">Impact Overview</h2>
           <div className="max-w-xl ">
@@ -260,7 +260,7 @@ function ImpactPage() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -5,7 +5,7 @@ import images from "../../utils/images.js";
 function HeroPage() {
   return (
     <>
-      <div
+      <section
         className="text-[#1D1D1D] min-h-screen flex flex-col justify-center items-center bg-center bg-cover bg-no-repeat bg-fixed "
         style={{ backgroundImage: `url(${images["heroimg.png"]})` }}
       >
@@ -76,7 +76,7 @@ function HeroPage() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
