@@ -294,7 +294,7 @@ function Navbar() {
                         onClick={() => setIsMobileSubMenuOpen((prev) => !prev)}
                         className="hover:bg-gray-200 cursor-pointer px-3 py-3"
                       >
-                        <Link to="">Digital Ekiti Initiative</Link>
+                        <Link to="/initiatives/digital_ekiti_initiative">Digital Ekiti Initiative</Link>
                       </li>
                       <li
                         onClick={() => setIsMobileSubMenuOpen((prev) => !prev)}
