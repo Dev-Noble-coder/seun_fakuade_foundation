@@ -115,13 +115,16 @@ function Digital_Ekiti_Initiative() {
                     </p>
 
                     <div className="mt-6 flex items-center justify-end gap-1">
-                      <button className="flex gap-1 items-center text-[#F97316]  transition-colors text-sm">
-                        Learn More
-                      </button>
-                      <div>
                         <Link
                           to={`/initiatives/digital_ekiti_initiative/${item.id}`}
+                          className="flex items-center justify-end gap-1 cursor-pointer"
                         >
+
+                      <p className="flex gap-1 items-center text-[#F97316]  transition-colors text-sm cursor-pointer">
+                        Learn More
+                      </p>
+                      <div>
+                      
                           <svg
                             width="18"
                             height="18"
@@ -151,8 +154,9 @@ function Digital_Ekiti_Initiative() {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </Link>
+                   
                       </div>
+                        </Link>
                     </div>
                   </div>
                 </div>
