@@ -1,5 +1,5 @@
 import React from "react";
-import Thought_Leadership_Heropage from "../components/ThoughtLeadershipPageComponents/thought_leaderpage_heropage";
+import Thought_Leadership_Heropage from "../components/ThoughtLeadershipPageComponents/Thought_Leaderpage_Heropage";
 import Pillars from "../components/ThoughtLeadershipPageComponents/Pillars";
 
 
