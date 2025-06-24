@@ -117,7 +117,7 @@ function Navbar() {
                     onClick={handleDropdownClick}
                     className="hover:bg-gray-200 cursor-pointer px-3 py-3 rounded-t-sm"
                   >
-                    <Link to="">Foundations</Link>
+                    <Link to="/initiatives/foundations">Foundations</Link>
                   </li>
                   <li
                     onClick={handleDropdownClick}
@@ -288,7 +288,7 @@ function Navbar() {
                         onClick={() => setIsMobileSubMenuOpen((prev) => !prev)}
                         className="hover:bg-gray-200 cursor-pointer px-3 py-3 rounded-t-sm"
                       >
-                        <Link to="">Foundations</Link>
+                        <Link to="/initiatives/foundations">Foundations</Link>
                       </li>
                       <li
                         onClick={() => setIsMobileSubMenuOpen((prev) => !prev)}
