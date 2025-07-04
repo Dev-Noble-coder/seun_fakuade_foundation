@@ -9,6 +9,7 @@ import Digital_Ekiti_Initiatives from "./components/Initiatives/DigitalEkitiInit
 import Digital_Ekiti_Initiatives_Detail from "./components/Initiatives/DigitalEkitiInitiatives/Digital_Ekiti_Initiatives_Detail";
 import Foundations_Page from "./pages/Foundations_Page";
 import ThoughtLeadership_Page from "./pages/ThoughtLeadership_Page";
+import ContactPage from './pages/ContactPage'
 
 function App() {
   return (
@@ -42,6 +43,10 @@ function App() {
 
           <Route path="/thought_leadership" element={<LandingLayout />}>
             <Route index element={<ThoughtLeadership_Page />} />
+          </Route>
+
+          <Route path="/contact" element={<LandingLayout />}>
+            <Route index element={<ContactPage />} />
           </Route>
 
           <Route path="*" element={<h1>404 Not Found</h1>} />
