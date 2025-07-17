@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import images from "../../utils/images.js";
+
 
 function KeyMoments() {
   return (
@@ -48,12 +48,12 @@ function KeyMoments() {
         </div>
         <div className="hidden sm:grid  sm:grid-cols-3 gap-1">
           {[
-            "key_moments_1.png", // index 0
-            "key_moments_2.png", // index 1
-            "key_moments_3.png", // index 2
-            "key_moments_4.png", // index 3
-            "key_moments_5.png", // index 4
-            "key_moments_6.png", // index 5
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755488/key_moments_1_pkjui5.png", // index 0
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755490/key_moments_2_aea90y.png", // index 1
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755642/key_moments_3_ick7sf.png", // index 2
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755489/key_moments_4_xhqlmk.png", // index 3
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755505/key_moments_5_cn4bue.png", // index 4
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755504/key_moments_6_y8ew75.png", // index 5
           ].map((name, i) => {
             let borderClass = "";
 
@@ -65,7 +65,7 @@ function KeyMoments() {
             return (
               <div key={i} className="w-full">
                 <img
-                  src={images[name]}
+                  src={name}
                   alt=""
                   className={`w-full h-[300px] object-cover ${borderClass}`}
                 />
@@ -75,9 +75,9 @@ function KeyMoments() {
         </div>
         <div className="sm:hidden grid grid-cols-1  gap-1">
           {[
-            "key_moments_1.png", // index 0
-            "key_moments_2.png", // index 1
-            "key_moments_3.png", // index 2
+             "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755488/key_moments_1_pkjui5.png", // index 0
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755490/key_moments_2_aea90y.png", // index 1
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755642/key_moments_3_ick7sf.png",
           ].map((name, i) => {
             let borderClass = "";
 
@@ -86,7 +86,7 @@ function KeyMoments() {
             return (
               <div key={i} className="w-full">
                 <img
-                  src={images[name]}
+                  src={name}
                   alt=""
                   className={`w-full h-[300px] object-cover ${borderClass}`}
                 />

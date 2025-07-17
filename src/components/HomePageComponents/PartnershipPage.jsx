@@ -24,7 +24,7 @@ function PartnershipPage() {
                 className="bg-white border border-gray-200 rounded-lg py-4 px-3 flex flex-col items-center"
               >
                 <img
-                  src={partner.partner_logo}
+                  src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755496/partners_img_ub48qr.jpg'
                   alt={partner.partner_name}
                   className="rounded-md h-24 mb-4"
                 />

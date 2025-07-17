@@ -6,7 +6,7 @@ function MeetSF() {
     <>
       <section className="flex flex-col sm:flex-row justify-center sm:max-h-[600px] bg-[#01103B]">
         <div className="flex-1">
-          <img src={images["seun_fakuade_img.png"]}
+          <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755505/seun_fakuade_img_ik6xq0.png'
           className="w-full h-full object-cover "
           alt="" />
         </div>

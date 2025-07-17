@@ -1,5 +1,5 @@
 import React from "react";
-import images from "../../utils/images.js";
+
 
 function ImpactPage() {
   return (
@@ -217,7 +217,7 @@ function ImpactPage() {
           <div className="grid row-span-3 rounded-md overflow-hidden relative">
             {/* Image */}
             <img
-              src={images["impact_div_img.png"]}
+              src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755517/impact_div_img_bwiwza.png'
               alt=""
               className="w-full h-full object-cover col-start-1 row-start-1"
             />

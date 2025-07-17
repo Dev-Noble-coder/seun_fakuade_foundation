@@ -6,7 +6,7 @@ function ContactUsPage() {
     <>
       <div
         className="bg-cover bg-center min-h-screen py-[30%] sm:py-[20%] lg:py-[10%]  px-5 lg:px-20 text-white flex flex-col lg:flex-row justify-between items-start text-sm gap-10 lg:gap-0 "
-        style={{ backgroundImage: `url(${images["contact_img.png"]})` }}
+        style={{ backgroundImage: `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752755490/contact_img_wci7vx.png)` }}
       >
         <div className="z-30">
           <h3 className="font-semibold text-2xl pb-2">Get In Touch</h3>

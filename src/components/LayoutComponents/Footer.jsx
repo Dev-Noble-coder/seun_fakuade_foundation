@@ -1,5 +1,5 @@
 import React from "react";
-import images from "../../utils/images.js"; // Assuming your social icons might be here
+
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
           <div className="flex items-center gap-2 mb-4">
             {/* Replace with your actual logo image if needed */}
             <img
-              src={images?.["sflogo.png"] || ""}
+              src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755506/sflogo_gkilxc.png'
               alt="Logo"
               className="w-[70px]"
             />

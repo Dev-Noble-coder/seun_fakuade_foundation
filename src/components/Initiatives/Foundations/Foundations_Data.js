@@ -1,4 +1,4 @@
-import images from "../../../utils/images"
+
 
 
 const Foundation_Data = [
@@ -7,7 +7,7 @@ const Foundation_Data = [
         "tag": '500+ students supported',
         "title": "Education",
         "description": "Providing scholarships, school infrastructure, and educational resources to underserved communities.",
-        "image": images['featured_projects_img.jpg']
+        "image": "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755496/featured_projects_img_ji484o.jpg"
 
     },
     {
@@ -15,7 +15,7 @@ const Foundation_Data = [
         "tag": '25+ communities reached',
         "title": "Community Development",
         "description": "Building essential infrastructure and supporting local development projects across rural areas.",
-        "image": images['featured_projects_img.jpg']
+        "image": "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755496/featured_projects_img_ji484o.jpg"
 
     },
     {
@@ -23,7 +23,7 @@ const Foundation_Data = [
         "tag": '10,000+ people served',
         "title": "Healthcare Access",
         "description": "Improving healthcare delivery through medical equipment donation and programs.",
-        "image": images['featured_projects_img.jpg']
+        "image": "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755496/featured_projects_img_ji484o.jpg"
 
     },
     {
@@ -31,8 +31,7 @@ const Foundation_Data = [
         "tag": '1,000+ youth trained',
         "title": "Youth Empowerment",
         "description": "Skills training, mentorship programs, and entrepreneurship support for young people.",
-        "image": images['featured_projects_img.jpg']
-
+        "image": "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755496/featured_projects_img_ji484o.jpg"
     },
 ]
 

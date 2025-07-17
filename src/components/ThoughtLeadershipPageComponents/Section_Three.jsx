@@ -1,13 +1,13 @@
 import React from "react";
-import images from '../../utils/images'
+
 
 function Section_Three(){
     return (
         <>
         <div>
-            <h2 className="text-[#1D1D1D] text-center text-2xl pb-3 ">What Thought Leadership Means To Me</h2>
+            <h2 className="text-[#1D1D1D] text-center text-xl lg:text-2xl pb-3 ">What Thought Leadership Means To Me</h2>
             <div className=" bg-center bg-cover h-96 flex justify-center items-center"
-            style={{backgroundImage : `url(${images['leadership_img.jpg']})`}}
+            style={{backgroundImage : `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752755495/leadership_img_traada.jpg)`}}
             >
 <div className="cursor-pointer">
     <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">

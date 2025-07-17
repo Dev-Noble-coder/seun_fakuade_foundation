@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import images from "../../../utils/images.js";
 import Foundation_Data from "./Foundations_Data.js";
 
 function Foundations_Comp() {
@@ -42,7 +41,7 @@ function Foundations_Comp() {
         <div className="flex flex-col lg:flex-row items-center lg:items-stretch justify-center gap-10 py-[10%] lg:py-[5%] lg:px-[7%]">
           <div className="flex-1 px-5 lg:px-0 ">
             <img
-              src={images["found_comp.jpg"]}
+              src="https://res.cloudinary.com/drhfrgahv/image/upload/v1752755495/found_comp_puky2l.jpg"
               alt="mission_vision_image"
               className="object-cover lg:min-w-[450px]  rounded-sm"
             />

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
-import sflogo from "../../assets/icons/sflogo.png";
 
 function Navbar() {
   const location = useLocation();
@@ -56,7 +55,7 @@ function Navbar() {
         <nav className="flex justify-between items-center bg-white py-3 text-sm text-[#1D1D1D] px-5 lg:px-20">
           <div>
             <a href="/">
-              <img src={sflogo} alt="SF Logo" className="logo w-[70px]" />
+              <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755506/sflogo_gkilxc.png' alt="SF Logo" className="logo w-[70px]" />
             </a>
           </div>
 

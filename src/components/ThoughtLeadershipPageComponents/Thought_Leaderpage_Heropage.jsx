@@ -6,7 +6,7 @@ function Thought_Leadership_Heropage (){
         <>
          <section
         className="text-[#1D1D1D] min-h-screen flex flex-col justify-center items-center bg-center bg-cover bg-no-repeat bg-fixed "
-        style={{ backgroundImage: `url(${images["heroimg.png"]})` }}
+        style={{ backgroundImage: `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752755508/heroimg_ljyx1v.png)` }}
       >
         <div className=" sm:max-w-3/4 lg:max-w-2/4 text-center flex flex-col justify-center items-center px-5 lg:px-0">
           <div className="text-white ">

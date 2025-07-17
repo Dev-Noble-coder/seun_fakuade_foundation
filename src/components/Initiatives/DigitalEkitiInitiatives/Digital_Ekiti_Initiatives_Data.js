@@ -15,7 +15,7 @@ const Digital_Ekiti_Initiatives_Data = [
     title: "StartUp Garage",
     description:
       "Comprehensive entrepreneurship program providing resources, mentorship, and funding opportunities for emerging businesses. Offering incubation services, business development support, access to funding networks, and mentorship from successful entrepreneurs.",
-    image: images["about_milestones_img3.png"],
+    image: "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755495/about_milestones_img3_pt5ejj.png",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const Digital_Ekiti_Initiatives_Data = [
     title: "Govlab",
     description:
       "Advancing governance through data-driven policies, digital transformation, and public service innovation.Implementing cutting-edge governance solutions, policy research, and digital transformation initiatives for improved public service delivery.",
-    image: images["initiatives_1.png"],
+    image: "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755507/initiatives_1_gumocc.png",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const Digital_Ekiti_Initiatives_Data = [
     title: "StartUp Garage",
     description:
       "Comprehensive entrepreneurship program providing resources, mentorship, and funding opportunities for emerging businesses. Offering incubation services, business development support, access to funding networks, and mentorship from successful entrepreneurs.",
-    image: images["about_milestones_img3.png"],
+    image: "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755495/about_milestones_img3_pt5ejj.png",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const Digital_Ekiti_Initiatives_Data = [
     title: "Govlab",
     description:
       "Advancing governance through data-driven policies, digital transformation, and public service innovation.Implementing cutting-edge governance solutions, policy research, and digital transformation initiatives for improved public service delivery.",
-    image: images["initiatives_1.png"],
+    image: "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755507/initiatives_1_gumocc.png",
   },
 ];
 

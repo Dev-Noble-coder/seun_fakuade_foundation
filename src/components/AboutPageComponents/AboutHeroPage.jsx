@@ -1,11 +1,11 @@
 import React from "react";
-import images from "../../utils/images";
+
 
 function AboutHeroPage() {
   return (
     <>
       <section
-        style={{ backgroundImage: `url(${images["about_hero_lines.png"]})` }}
+        style={{ backgroundImage: `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752755486/about_hero_lines_l2rhrv.png)` }}
         className="min-h-screen bg-cover  bg-no-repeat bg-[#FFFAF6] lg:py-[10%] text-sm flex justify-center items-center flex-col lg:block"
       >
         <div className="flex justify-center items-center flex-col text-center px-5 sm:px-0">
@@ -26,18 +26,18 @@ function AboutHeroPage() {
         </div>
         <div className="flex flex-row justify-center gap-5">
             <img
-                src={images["about_hero_img1.png"]}
-                alt="About Hero"
+                src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755486/about_hero_img1_eaqwpt.png'
+                alt="About Hero Img1"
                 className="hidden lg:block w-[28%] h-auto  object-cover"
             />
             <img
-                src={images["about_hero_img2.png"]}
-                alt="About Hero"
+                src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755485/about_hero_img2_seqb1c.png'
+                alt="About Hero Img2"
                 className="hidden sm:block sm:w-[60%] lg:w-[28%] h-auto  object-cover"
             />
             <img
-                src={images["about_hero_img3.png"]}
-                alt="About Hero"
+                src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755486/about_hero_img3_wqp3ly.png'
+                alt="About Hero Img3"
                 className=" sm:hidden lg:block w-full px-5 sm:px-0 lg:w-[28%] h-auto object-cover"
             />
         </div>

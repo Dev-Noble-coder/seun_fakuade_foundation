@@ -1,5 +1,5 @@
 import React from "react";
-import images from "../../utils/images";
+
 
 function CoreValues() {
   return (
@@ -135,7 +135,7 @@ function CoreValues() {
           </div>
         </div>
         <div className="flex-1 "> 
-            <img src={images['core_values_img.png']} alt="" className="object-cover lg:p-10" />
+            <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755497/core_values_img_mujvps.png' alt="" className="object-cover lg:p-10" />
         </div>
       </section>
     </>

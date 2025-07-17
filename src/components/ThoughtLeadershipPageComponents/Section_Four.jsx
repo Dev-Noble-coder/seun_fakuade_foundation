@@ -1,5 +1,4 @@
 import React from "react";
-import images from '../../utils/images'
 
 function Section_Four() {
   return (
@@ -20,7 +19,7 @@ function Section_Four() {
       {/* Right: Image */}
       <div className="flex-1 hidden lg:block">
         <img
-          src={images['section_four.jpg']}
+          src="https://res.cloudinary.com/drhfrgahv/image/upload/v1752755497/section_four_g6sbc2.jpg"
           alt="Resources"
           className="w-full h-full object-cover"
         />

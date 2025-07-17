@@ -26,7 +26,7 @@ const Thought_Leadership_Data = [
       "Policy Co-creation Initiatives",
       "Young Entrepreneur Support",
     ],
-      image: images["about_milestones_img3.png"],
+      image: "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755495/about_milestones_img3_pt5ejj.png",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const Thought_Leadership_Data = [
       "Community Feedback Systems",
       "Empathetic Policy Design",
     ],
-      image: images["initiatives_1.png"],
+      image: "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755507/initiatives_1_gumocc.png",
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ const Thought_Leadership_Data = [
       "Digital Storytelling Initiatives",
       "Arts & Innovation Fusion",
     ],
-      image: images["about_milestones_img3.png"],
+      image: "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755495/about_milestones_img3_pt5ejj.png",
   },
 ];
 

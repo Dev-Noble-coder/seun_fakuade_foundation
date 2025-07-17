@@ -58,7 +58,7 @@ function FeaturedPage() {
               >
                 <div className="relative h-48">
                   <img
-                    src={featuredProject.image}
+                    src="https://res.cloudinary.com/drhfrgahv/image/upload/v1752755496/featured_projects_img_ji484o.jpg"
                     alt="featured_projects_img"
                     className="w-full h-full object-cover rounded-t-md"
                   />
@@ -121,12 +121,31 @@ function FeaturedPage() {
             ))}
           </div>
           <div className="flex justify-center items-center gap-2 sm:hidden mt-5 text-[#F97316] cursor-pointer">
-<p>View all projects</p>
-<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702" stroke="#F97316" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M3.5 12H20.33" stroke="#F97316" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-
+            <p>View all projects</p>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.43 5.93018L20.5 12.0002L14.43 18.0702"
+                stroke="#F97316"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3.5 12H20.33"
+                stroke="#F97316"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </div>
         </div>
       </section>
