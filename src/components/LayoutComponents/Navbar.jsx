@@ -116,7 +116,7 @@ function Navbar() {
                     onClick={handleDropdownClick}
                     className="hover:bg-gray-200 cursor-pointer px-3 py-3 rounded-t-sm"
                   >
-                    <Link to="/initiatives/foundations">Foundations</Link>
+                    <Link to="/initiatives/foundations">Foundation</Link>
                   </li>
                   <li
                     onClick={handleDropdownClick}
@@ -171,7 +171,7 @@ function Navbar() {
           <div className="hidden lg:block ">
             <Link to="/">
               <button className="bg-[#F97316] py-2 px-4 rounded-full text-white cursor-pointer">
-                Get In Touch
+                Book a Call
               </button>
             </Link>
           </div>
@@ -216,7 +216,7 @@ function Navbar() {
                   <div>
                     <a href="/">
                       <img
-                        src={sflogo}
+                         src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755506/sflogo_gkilxc.png'
                         alt="SF Logo"
                         className="logo w-[70px]"
                       />
@@ -330,6 +330,9 @@ function Navbar() {
                 <Link to="/contact" onClick={() => setShowMobileMenu(false)}>
                   Contact
                 </Link>
+                <button className="bg-[#F97316] py-3 px-4 rounded-full text-white cursor-pointer w-full">
+                  <p>Book a Call</p>
+                </button>
               </div>
             </div>
           )}

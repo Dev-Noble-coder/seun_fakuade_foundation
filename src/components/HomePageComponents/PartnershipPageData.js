@@ -24,6 +24,30 @@ const Partners = [
         'partner_name': 'Ford Foundation',
         'partner_description': 'Social Justice',
         'partner_info': 'Supporting grassroots movements and community empowerment'
+    },
+    {
+        id : 5,
+        'partner_name': 'Math Wiz Kid Program',
+        'partner_description': 'Policy & Governance',
+        'partner_info': 'International partnerships established'
+    },
+    {
+        id : 6,
+        'partner_name': 'Steam Bootcamp',
+        'partner_description': 'Sustainable Development',
+        'partner_info': 'SImplementing SDG-aligned programs for human development'
+    },
+    {
+        id : 7,
+        'partner_name': 'Robotics Academy',
+        'partner_description': 'Social Justice',
+        'partner_info': 'Supporting grassroots movements and community empowerment'
+    },
+    {
+        id : 8,
+        'partner_name': 'Mentorship and Fellowship',
+        'partner_description': 'Social Justice',
+        'partner_info': 'Supporting grassroots movements and community empowerment'
     }
 ]
 

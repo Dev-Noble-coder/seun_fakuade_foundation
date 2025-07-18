@@ -6,7 +6,10 @@ function MeetSF() {
     <>
       <section className="flex flex-col sm:flex-row justify-center sm:max-h-[600px] bg-[#01103B]">
         <div className="flex-1">
-          <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755505/seun_fakuade_img_ik6xq0.png'
+          {/* <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755505/seun_fakuade_img_ik6xq0.png'
+          className="w-full h-full object-cover "
+          alt="" /> */}
+          <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752850379/SnapInsta.to_510973028_10161083298850880_8562182542429087220_n_daorqk.jpg'
           className="w-full h-full object-cover "
           alt="" />
         </div>

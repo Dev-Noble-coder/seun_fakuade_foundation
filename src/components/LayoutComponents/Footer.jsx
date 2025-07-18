@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="bg-[#F8FAFC] text-[#1d1d1f] text-sm">
-      <div className="max-w-7xl mx-auto px-5 gap-10 lg:gap-0 sm:px-20 py-12 grid grid-cols-1 md:grid-cols-4  sm:justify-items-center">
+      <div className="max-w-7xl mx-auto px-5 gap-10 lg:gap-0 sm:px-20 py-12 grid grid-cols-1 md:grid-cols-4  sm:justify-items-center ">
         {/* Logo & Description */}
         <div>
           <div className="flex items-center gap-2 mb-4">

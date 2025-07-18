@@ -22,13 +22,11 @@ function HeroPage() {
               Innovation
             </h1>
             <p>
-              Building sustainable solutions for economic development,
-              governance innovation, and youth empowerment across West Africa.
-              Creating impact that lasts generations.
+              Building sustainable solutions for economic development through public sector mission - driven innovation.
             </p>
             <div className="flex flex-row justify-center items-center gap-2 mt-4">
               <button className="flex justify-center items-center gap-1 bg-[#FF6600] w-full sm:w-fit py-2 px-2.5 sm:px-4 rounded-full text-white text-sm cursor-pointer">
-                Explore my impact
+                Explore initiatives
                 <svg
                   width="24"
                   height="24"
