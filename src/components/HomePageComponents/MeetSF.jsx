@@ -14,7 +14,7 @@ function MeetSF() {
           alt="" />
         </div>
         <div className="sm:flex-1 text-white px-5 py-8 sm:py-10 sm:p-10">
-          <h3 className="text-4xl font-semibold pb-3">Meet H.C Seun Fakuade</h3>
+          <h3 className="text-4xl font-semibold pb-3">H.C Seun Fakuade</h3>
           <p className="pb-3">
             I am ‘Seun Fakuade — a purpose-driven public servant, innovation
             strategist, and impact communicator, committed to building inclusive
