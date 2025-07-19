@@ -7,7 +7,10 @@ function HeroPage() {
     <>
       <section
         className="text-[#1D1D1D] min-h-screen flex flex-col justify-center items-center bg-center bg-cover bg-no-repeat bg-fixed "
-        style={{ backgroundImage: `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752755508/heroimg_ljyx1v.png)` }}
+        style={{ backgroundImage: `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752913797/IMG-20250718-WA0091_p22rk1.jpg)` }}
+        
+        // style={{ backgroundImage: `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752755508/heroimg_ljyx1v.png)` }}
+        
       >
         <div className=" sm:max-w-3/4 lg:max-w-2/4 text-center flex flex-col justify-center items-center px-5 lg:px-0">
           <div className="text-center text-[#F97316] bg-white text-sm border border-[#F97316] rounded-full px-4 py-0.5 mb-2 w-fit ">

@@ -4,7 +4,7 @@ import React from "react";
 function CoreValues() {
   return (
     <>
-      <section className="core-values bg-[#FFF8F4] py-20 px-5 lg:px-20 text-sm flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0 ">
+      <section className="core-values bg-[#FFF8F4] py-20 px-5 lg:px-20 text-sm flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-5 ">
         <div className="flex-1">
           <h3 className="text-2xl font-bold text-[#01103B] pb-4">
             Core Values
@@ -135,7 +135,7 @@ function CoreValues() {
           </div>
         </div>
         <div className="flex-1 "> 
-            <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755497/core_values_img_mujvps.png' alt="" className="object-cover lg:p-10" />
+            <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752913806/IMG-20250718-WA0094_s8bgno.jpg' alt="" className="object-cover rounded-tl-4xl rounded-br-4xl" />
         </div>
       </section>
     </>

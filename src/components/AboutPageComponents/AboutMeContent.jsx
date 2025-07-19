@@ -32,7 +32,7 @@ const PlayButton = ({ onClick }) => (
 );
 
 const VideoPlayer = ({ src, orientation, onPlayClick, index }) => (
-  <div className="relative overflow-hidden rounded-sm  shadow">
+  <div className="relative overflow-hidden rounded-sm ">
     <video
       src={src}
       autoPlay
@@ -41,7 +41,7 @@ const VideoPlayer = ({ src, orientation, onPlayClick, index }) => (
       playsInline
       className={` shadow-sm cursor-pointer object-cover w-full h-full ${
         orientation === "vertical" ? "aspect-[9/14]" : "aspect-[16/14]"
-      }`}
+      }  ${index == 0 ? "rounded-tl-full " : ""}  ${index == 3 ? "rounded-br-full " : ""} `}
     />
     <PlayButton onClick={() => onPlayClick(index)} />
   </div>
@@ -243,9 +243,9 @@ function AboutMeContent() {
   };
 
   return (
-    <div className="bg-white text-[#1D1D1D] flex flex-col lg:flex-row gap-10 justify-between py-10 sm:py-20 mx-5 lg:mx-20">
+    <div className=" text-[#1D1D1D] flex flex-col lg:flex-row gap-10 justify-between py-10 sm:py-20 mx-5 lg:mx-20">
       {/* Left + Right Video Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-2 sm:grid-rows-1 gap-3 flex-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-2 sm:grid-rows-1 gap-3 flex-1 bg-none">
         {/* Left column: 2 videos */}
         <div className="flex flex-col gap-3">
           <VideoPlayer 
@@ -280,7 +280,7 @@ function AboutMeContent() {
       </div>
       
         <div className="flex-1">
-          <h3 className="text-4xl font-semibold pb-3">His Work, Family and Life.</h3>
+          <h3 className="text-4xl font-semibold pb-3">Work, Family and Life.</h3>
           <p className="pb-3">
             I am ‘Seun Fakuade — a purpose-driven public servant, innovation
             strategist, and impact communicator, committed to building inclusive

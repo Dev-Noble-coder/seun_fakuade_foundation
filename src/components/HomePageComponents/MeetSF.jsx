@@ -9,7 +9,7 @@ function MeetSF() {
           {/* <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752755505/seun_fakuade_img_ik6xq0.png'
           className="w-full h-full object-cover "
           alt="" /> */}
-          <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752850379/SnapInsta.to_510973028_10161083298850880_8562182542429087220_n_daorqk.jpg'
+          <img src='https://res.cloudinary.com/drhfrgahv/image/upload/v1752913806/IMG-20250718-WA0103_es1daj.jpg'
           className="w-full h-full object-cover "
           alt="" />
         </div>

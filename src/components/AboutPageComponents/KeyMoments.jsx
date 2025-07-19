@@ -48,12 +48,12 @@ function KeyMoments() {
         </div>
         <div className="hidden sm:grid  sm:grid-cols-3 gap-1">
           {[
-            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755488/key_moments_1_pkjui5.png", // index 0
-            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755490/key_moments_2_aea90y.png", // index 1
-            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755642/key_moments_3_ick7sf.png", // index 2
-            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755489/key_moments_4_xhqlmk.png", // index 3
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752913805/IMG-20250718-WA0092_cboltk.jpg", // index 0
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752913838/IMG-20250718-WA0108_k6o3vx.jpg", // index 1
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752913902/IMG-20250718-WA0127_cfo6sq.jpg", // index 2
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752913852/IMG-20250718-WA0113_jr2mq2.jpg", // index 3
             "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755505/key_moments_5_cn4bue.png", // index 4
-            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752755504/key_moments_6_y8ew75.png", // index 5
+            "https://res.cloudinary.com/drhfrgahv/image/upload/v1752913822/IMG-20250718-WA0095_szl4on.jpg", // index 5
           ].map((name, i) => {
             let borderClass = "";
 
@@ -67,7 +67,7 @@ function KeyMoments() {
                 <img
                   src={name}
                   alt=""
-                  className={`w-full h-[300px] object-cover ${borderClass}`}
+                  className={`w-full h-[300px] object-cover ${borderClass} hover:scale-95 transition-all duration-500 transform`}
                 />
               </div>
             );
