@@ -3,6 +3,16 @@ import { Link } from "react-router-dom";
 
 
 function HeroPage() {
+  const handleDownload = () => {
+    // Create a link element to trigger the download
+    const link = document.createElement('a');
+    link.href = '/initiatives.pdf';
+    link.download = 'initiatives.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <section
@@ -28,7 +38,10 @@ function HeroPage() {
               Building sustainable solutions for economic development through public sector mission - driven innovation.
             </p>
             <div className="flex flex-row justify-center items-center gap-2 mt-4">
-              <button className="flex justify-center items-center gap-1 bg-[#FF6600] w-full sm:w-fit py-2 px-2.5 sm:px-4 rounded-full text-white text-sm cursor-pointer">
+              <button 
+                onClick={handleDownload}
+                className="flex justify-center items-center gap-1 bg-[#FF6600] w-full sm:w-fit py-2 px-2.5 sm:px-4 rounded-full text-white text-sm cursor-pointer"
+              >
                 Explore initiatives
                 <svg
                   width="24"
