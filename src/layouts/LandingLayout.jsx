@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/LayoutComponents/Navbar"
+import EnhancedNavbar from "../components/LayoutComponents/EnhancedNavbar"
 import Footer from "../components/LayoutComponents/Footer"
 import { Outlet } from "react-router-dom";
 
@@ -7,7 +7,7 @@ function LandingLayout({ children }){
     return (
         <>
         <div className="landing-layout">
-            <Navbar />
+            <EnhancedNavbar />
             <main>
                 <Outlet />
             </main>

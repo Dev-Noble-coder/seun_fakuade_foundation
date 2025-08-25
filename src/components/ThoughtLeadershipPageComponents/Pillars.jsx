@@ -21,7 +21,7 @@ function Pillars() {
                     alt="featured_projects_img"
                     className="w-full h-full object-cover rounded-t-md"
                   />
-             <div className="absolute top-4 left-4 bg-white text-[#F97316] w-10 h-10 flex items-center justify-center rounded-full">
+             <div className="absolute top-4 left-4 bg-white text-[#F97316] w-10 h-10 flex items-center justify-center rounded-full text-xl">
   {item.icon}
 </div>
 

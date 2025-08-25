@@ -71,7 +71,7 @@ function Navbar() {
                   location.pathname === "/about" ? "text-[#F97316]" : ""
                 }
               >
-                About
+                About / Vision
               </p>
             </Link>
 
@@ -155,6 +155,42 @@ function Navbar() {
                 }
               >
                 Thought Leadership
+              </p>
+            </Link>
+            <Link to="/services">
+              <p
+                className={
+                  location.pathname === "/services" ? "text-[#F97316]" : ""
+                }
+              >
+                Services
+              </p>
+            </Link>
+            <Link to="/marketplace">
+              <p
+                className={
+                  location.pathname === "/marketplace" ? "text-[#F97316]" : ""
+                }
+              >
+                Marketplace
+              </p>
+            </Link>
+            <Link to="/gallery">
+              <p
+                className={
+                  location.pathname === "/gallery" ? "text-[#F97316]" : ""
+                }
+              >
+                Gallery
+              </p>
+            </Link>
+            <Link to="/team">
+              <p
+                className={
+                  location.pathname === "/team" ? "text-[#F97316]" : ""
+                }
+              >
+                Team / Partners
               </p>
             </Link>
             <Link to="/contact">
@@ -251,7 +287,7 @@ function Navbar() {
                   Home
                 </Link>
                 <Link to="/about" onClick={() => setShowMobileMenu(false)}>
-                  About
+                  About / Vision
                 </Link>
 
                 <div
@@ -326,6 +362,18 @@ function Navbar() {
                   onClick={() => setShowMobileMenu(false)}
                 >
                   Thought Leadership
+                </Link>
+                <Link to="/services" onClick={() => setShowMobileMenu(false)}>
+                  Services
+                </Link>
+                <Link to="/marketplace" onClick={() => setShowMobileMenu(false)}>
+                  Marketplace
+                </Link>
+                <Link to="/gallery" onClick={() => setShowMobileMenu(false)}>
+                  Gallery
+                </Link>
+                <Link to="/team" onClick={() => setShowMobileMenu(false)}>
+                  Team / Partners
                 </Link>
                 <Link to="/contact" onClick={() => setShowMobileMenu(false)}>
                   Contact

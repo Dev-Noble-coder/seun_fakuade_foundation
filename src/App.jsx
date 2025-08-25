@@ -10,6 +10,10 @@ import Digital_Ekiti_Initiatives_Detail from "./components/Initiatives/DigitalEk
 import Foundations_Page from "./pages/Foundations_Page";
 import ThoughtLeadership_Page from "./pages/ThoughtLeadership_Page";
 import ContactPage from './pages/ContactPage'
+import ServicesPage from './pages/ServicesPage'
+import MarketplacePage from './pages/MarketplacePage'
+import GalleryPage from './pages/GalleryPage'
+import TeamPage from './pages/TeamPage'
 
 function App() {
   return (
@@ -47,6 +51,29 @@ function App() {
 
           <Route path="/contact" element={<LandingLayout />}>
             <Route index element={<ContactPage />} />
+          </Route>
+          <Route path="/services" element={<LandingLayout />}>
+            <Route index element={<ServicesPage />} />
+          </Route>
+          <Route path="/marketplace" element={<LandingLayout />}>
+            <Route index element={<MarketplacePage />} />
+          </Route>
+          <Route path="/gallery" element={<LandingLayout />}>
+            <Route index element={<GalleryPage />} />
+          </Route>
+          <Route path="/team" element={<LandingLayout />}>
+            <Route index element={<TeamPage />} />
+          </Route>
+          <Route path="/book-call" element={<LandingLayout />}>
+            <Route index element={<div className="min-h-screen flex items-center justify-center">
+              <div className="text-center">
+                <h1 className="text-4xl font-bold text-[#1D1D1D] mb-4">Book a Call</h1>
+                <p className="text-lg text-gray-600 mb-6">Schedule a consultation with our experts</p>
+                <div className="bg-gray-100 p-6 rounded-lg max-w-md mx-auto">
+                  <p className="text-sm text-gray-500">This feature is coming soon. Please contact us directly for now.</p>
+                </div>
+              </div>
+            </div>} />
           </Route>
 
           <Route path="*" element={<h1>404 Not Found</h1>} />

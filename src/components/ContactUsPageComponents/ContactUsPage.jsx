@@ -9,7 +9,7 @@ function ContactUsPage() {
         style={{ backgroundImage: `url(https://res.cloudinary.com/drhfrgahv/image/upload/v1752755490/contact_img_wci7vx.png)` }}
       >
         <div className="z-30">
-          <h3 className="font-semibold text-2xl pb-2">Get In Touch</h3>
+          <h3 className="font-semibold text-2xl pb-2">Contact / Get Involved</h3>
           <p className="pb-5"> Got an innovative idea or research project in mind? <br /> Let’s explore possibilities and bring it to life together!</p>
 
           <div className="flex justify-start items-center gap-3 pb-3">
